@@ -13,8 +13,6 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/pnevels/immutablejs-rails"
 
   spec.files         = Dir["{lib,vendor}/**/*"] + ["LICENSE", "README.md"]
-  spec.bindir        = "bin"
-  spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.require_paths = ["lib", "vendor"]
 
   spec.add_dependency "railties"
