@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["pnevels18@gmail.com"]
 
   spec.summary       = %q{Ruby on Rails gem for Facebook's Immutable.js library}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/pnevels/immutablejs-rails"
 
   spec.files         = Dir["{lib,vendor}/**/*"] + ["LICENSE", "README.md"]
   spec.bindir        = "bin"
